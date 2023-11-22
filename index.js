@@ -4,7 +4,6 @@ const {
     DisconnectReason,
     useSingleFileAuthState,
 } = require("@whiskeysockets/baileys");
-
 process.setMaxListeners(0);
 
 const http = require("http");
