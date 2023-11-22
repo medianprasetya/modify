@@ -8,7 +8,7 @@ const {
   Mimetype,
   makeInMemoryStore,
   useSingleFileAuthState,
-} = require("@adiwajshing/baileys");
+} =  require("@whiskeysockets/baileys");
 
 const fs = require("fs");
 const pino = require("pino");
