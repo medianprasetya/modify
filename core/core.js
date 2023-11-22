@@ -27,7 +27,7 @@ async function connect(sta, msg, to) {
     printQRInTerminal: false,
     auth: state,
     logger: pino({ level: "fatal" }),
-    browser: ["WAF"],
+    browser: ["chrome"],
   });
 
   sock.ev.on("connection.update", (update) => {
